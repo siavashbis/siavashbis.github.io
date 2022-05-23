@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
 *{
     box-sizing: content-box;
 }
@@ -11,16 +12,21 @@ body {
     height: 100vh;
     overflow: hidden;
     margin: 0;
-    background: rgb(255,255,255);
-    background: linear-gradient(80deg, rgba(255,255,255,1) 0%, rgba(132,223,244,1) 100%);
+    background: #5CDB95!important;
 }
 .main{
-    background-color: firebrick;
+    background-color: #05386B;
     border-radius: 10px;
     width: 70%;
     height: 70%;
-    
+    overflow: scroll;
 }
 .btn{
     margin: 10px;
+
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    color: #FFF;
+    font-weight: bold;
 }
