@@ -9,15 +9,18 @@ body {
     height: 100vh;
     overflow: hidden;
     margin: 0;
-    background: rgb(11,217,255);
-    background: linear-gradient(80deg, rgba(11,217,255,1) 0%, rgba(0,103,211,1) 100%);
+    background: rgb(255,255,255);
+    background: linear-gradient(80deg, rgba(255,255,255,1) 0%, rgba(132,223,244,1) 100%);
 }
 .main{
-    background-color: gray;
+    background-color: firebrick;
     border-radius: 10px;
-    width: 50%;
-    height: 50%;
+    width: 70%;
+    height: 70%;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.btn{
+    margin: 10px;
 }
