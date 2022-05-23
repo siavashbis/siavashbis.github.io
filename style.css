@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 *{
-    box-sizing: border-box;
+    box-sizing: content-box;
 }
 
 body {
@@ -11,12 +11,13 @@ body {
     height: 100vh;
     overflow: hidden;
     margin: 0;
-    background: rgb(4,168,198);
-    background: linear-gradient(80deg, rgba(4,168,198,1) 0%, rgba(0,118,241,1) 100%);
+    background: rgb(11,217,255);
+    background: linear-gradient(80deg, rgba(11,217,255,1) 0%, rgba(0,103,211,1) 100%);
 }
 .main{
-    background-color: blueviolet;
+    background-color: gray;
     border-radius: 10px;
-    
+    width: 50%;
+    height: 50%;
 
 }
