@@ -1,0 +1,47 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+*{
+    box-sizing: content-box;
+}
+html {
+    scroll-behavior: smooth;
+  }
+body {
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    background: #4ABDAC!important;
+}
+.buttons::-webkit-scrollbar {
+    display: none;
+  }
+.main{
+    background-color: #FC4A1A;
+    width: 70%;
+    height: 70%;
+   position: absolute;
+}
+
+.list-group{
+    max-height: 70%;
+    margin-bottom: 10px;
+    overflow:scroll;
+    -webkit-overflow-scrolling: touch;
+}
+.buttons{
+    -ms-overflow-style: none;
+
+    overflow-y: scroll;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    color: #FFF;
+    font-weight: bold;
+}
+.navbar{
+    height: 40%;
+}
